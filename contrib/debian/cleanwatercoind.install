@@ -1,0 +1,2 @@
+debian/bin/dComd usr/bin
+src/dComd usr/lib/dCom

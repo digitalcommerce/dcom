@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=dCom
+Comment=dCom P2P Cryptocurrency
+Comment[fr]=dCom, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=dCom, eşten eşe kriptografik sanal para birimi
+Comment[es]=dCom, una criptomoneda P2P
+Exec=/usr/bin/dCom-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/bitcoin80.xpm
+MimeType=x-scheme-handler/dCom;
+Categories=Office;
