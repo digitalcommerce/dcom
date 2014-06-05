@@ -56,7 +56,7 @@
 #include <QDragEnterEvent>
 #include <QUrl>
 #include <QStyle>
-
+#include <QMimeData>
 #include <iostream>
 
 extern CWallet *pwalletMain;
