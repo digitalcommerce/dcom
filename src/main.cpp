@@ -941,6 +941,9 @@ int64 GetProofOfWorkReward(int nHeight, int64 nFees, uint256 prevHash)
     if (nHeight == 1)
     {
         nSubsidy = 1350000 * COIN;       // First block with 1.35M DCM for IPO purpose
+    } 
+    else if (nHeight > 15500 && nHeight < 25000)
+	nSubsidy = 10 * COIN;
     }
                                    // Next 50 blocks used to confrim first IPO block
                                    // POW is cutoff in the CBlock:: code. For safety, PoW blocks are pemitted till block 15000

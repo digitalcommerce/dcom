@@ -129,7 +129,7 @@ void ResendWalletTransactions();
 
 
 
-static const int CUTOFF_POW_BLOCK = 15000;
+static const int CUTOFF_POW_BLOCK = 25000;
 
 
 
